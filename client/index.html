@@ -30,8 +30,12 @@
         </a>
 
         <nav class="primary-nav" aria-label="primary navigation">
-          <button class="mobile-toggle" type="button" aria-label="Menu" aria-expanded="false">
-          </button>
+          <button
+            class="mobile-toggle"
+            type="button"
+            aria-label="Menu"
+            aria-expanded="false"
+          ></button>
           <ul class="nav-links" data-mobile-show="false">
             <li><a class="nav-link" href="#">Features</a></li>
             <li><a class="nav-link" href="#">Pricing</a></li>
@@ -39,7 +43,12 @@
           </ul>
         </nav>
 
-        <form class="login" action="/login" method="post" data-mobile-show="false">
+        <form
+          class="login"
+          action="/login"
+          method="post"
+          data-mobile-show="false"
+        >
           <button type="submit">login</button>
           <button type="submit">Sign Up</button>
         </form>
@@ -65,11 +74,7 @@
       </div>
       <div class="features">
         <div class="wrapper">
-          <form
-            id="main-form"
-            class="main-feature wrapper"
-            method="POST"
-          >
+          <form id="main-form" class="main-feature wrapper" method="POST">
             <label for="link"></label>
             <input
               type="url"
@@ -77,12 +82,10 @@
               id="link"
               placeholder="Shorten a link here..."
             />
-            <button type="submit" >Shorten It!</button>
+            <button type="submit">Shorten It!</button>
           </form>
 
-          <ul class="shortening wrapper">
-           
-          </ul>
+          <ul class="shortening wrapper"></ul>
 
           <section class="statistics">
             <h2>Advanced Statistics</h2>
@@ -152,7 +155,7 @@
         <nav class="footer-nav" aria-label="footer navigation">
           <ul class="footer-links">
             <li>
-              <a  href="#">Features</a>
+              <a href="#">Features</a>
 
               <ul class="footer-sub-links">
                 <li><a class="footer-link" href="#">Link Shortening</a></li>
@@ -164,7 +167,7 @@
 
           <ul class="footer-links">
             <li>
-              <a  href="#"> Resources</a>
+              <a href="#"> Resources</a>
 
               <ul class="footer-sub-links">
                 <li><a class="footer-link" href="#">Blog</a></li>
@@ -188,20 +191,26 @@
         </nav>
 
         <div class="social-links">
-          <svg class="social-icon" width="24" height="24">
-            <use xlink:href="./images/sprite-icons.svg#icon-facebook"></use>
-          </svg>
-          <svg class="social-icon" width="24" height="24">
-            <use xlink:href="./images/sprite-icons.svg#icon-twitter"></use>
-          </svg>
-
-          <svg class="social-icon" width="24" height="24">
-            <use xlink:href="./images/sprite-icons.svg#icon-pinterest"></use>
-          </svg>
-
-          <svg class="social-icon" width="24" height="24">
-            <use xlink:href="./images/sprite-icons.svg#icon-instagram"></use>
-          </svg>
+          <a class="social-link" href="#" aria-label="facebook link">
+            <svg class="social-icon" width="24" height="24">
+              <use xlink:href="./images/sprite-icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+          <a class="social-link" href="#" aria-label="twitter link">
+            <svg class="social-icon" width="24" height="24">
+              <use xlink:href="./images/sprite-icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+          <a class="social-link" href="#" aria-label="pinterest link">
+            <svg class="social-icon" width="24" height="24">
+              <use xlink:href="./images/sprite-icons.svg#icon-pinterest"></use>
+            </svg>
+          </a>
+          <a class="social-link" href="#" aria-label="instagram link">
+            <svg class="social-icon" width="24" height="24">
+              <use xlink:href="./images/sprite-icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
         </div>
       </div>
     </footer>

@@ -26,6 +26,7 @@ shortenForm.addEventListener("submit", (e) => {
   e.preventDefault();
   if (isValidUrl(inputElement.value.trim())) {
     getShorteningData(inputElement.value);
+    inputElement.value = ''
   }
 });
 
